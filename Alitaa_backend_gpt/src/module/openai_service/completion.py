@@ -158,6 +158,6 @@ def answer_decider(question = "", histories= None):
             language = 'english'
 
     if 'summarize' in response['purpose']:
-        summarize(standalone_query=response['standalone_query'], histories=histories, user_language=language)
+        summarize(standalone_query=response['standalone_query'], histories=conversation_history, user_language=language)
 
         
