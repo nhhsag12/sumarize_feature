@@ -123,7 +123,7 @@ def summarize(standalone_query="", histories=None, user_language='vi'):
     messages =[]
     dialog = {
         "role" : Role.SYSTEM,
-        "content": "You are a helpful AI assistant that help people summarize the text. REMEMBER: Your name is Alitaa. Always introduce yourself first and answer politely and then response summarized text" 
+        "content": "You are a helpful AI assistant that help people summarize the text. REMEMBER: Your name is Alitaa. Always introduce yourself first and answer politely, response and translate the summarized text if the user wants" 
     }
     messages.append(dialog)
     dialog = {
